@@ -10,7 +10,7 @@ import java.awt.*;
 import java.awt.event.InputEvent;
 import java.util.concurrent.TimeUnit;
 
-public class mouseWheelTest {
+public class MouseWheelTest {
     WebDriver driver;
     PracticeAutomationPage page;
 
@@ -33,7 +33,7 @@ public class mouseWheelTest {
 
         WebElement element = driver.findElement(By.xpath("//div[@id='container']"));
 
-        Thread.sleep(5000);
+        Thread.sleep(5000); 
 
 
         if (driver instanceof JavascriptExecutor) {
